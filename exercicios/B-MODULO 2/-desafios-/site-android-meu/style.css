@@ -1,0 +1,194 @@
+@charset "UTF-8";   
+
+body {
+    background-color: #84E1AD;
+    margin: 0px;
+}
+
+/* CABEÇALHO */
+header {
+    height: auto;
+    background-image: linear-gradient( to top, #1A5C38, #3DDB83 );
+    color: white;
+}
+
+header > h1 {
+    margin: 1px;
+    text-align: center;   
+    color: rgb(235, 235, 235);
+    font-size: 80px;
+}
+
+p.slogan {
+    margin-bottom: 45px;
+    font-size: 22px;
+    text-align: center;
+    color: white;
+}
+
+nav {
+    font-size: 25px;
+    margin: auto;
+}
+
+nav > a {
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+
+    border: 10px;
+
+    margin-bottom: 5px;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+nav > a:hover {
+    color: #170bca;   
+} 
+
+/* CORPO */
+main {
+    background-color: white;
+    max-width: 900px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+p > a {
+    text-decoration: none;
+    color: #4a64da;
+}
+
+p > a:hover {
+    color: #170bca;
+}
+
+main > p {
+    margin-left: 22px;
+    margin-right: 22px;
+    text-align: justify;
+    font-size: 22px;
+    color: black;
+    text-indent: 30px;
+}
+
+main > h1 {
+    color: #1D5D3A;
+    font-family: "IDroid", sans-serif;
+    font-size: 40px;
+    padding-top: 10px;
+    margin-top: 0px;
+    margin-left: 22px;
+    margin-right: 22px;
+}
+
+main > h2 {
+    background-image: linear-gradient( to right, #2fa8656c, #84e1ac3b );
+    color: #1D5D3A;
+    font-family: "IDroid", sans-serif;
+    font-size: 35px;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-top: 0px;
+    margin-left: 22px;
+    margin-right: 22px;
+
+    border-radius: 12px;
+
+    
+}
+
+picture > img {
+    display: block;
+    margin: auto;
+}
+
+/* SEÇÃO DO VIDEO*/
+.video {
+    background-color: #1A5C38;
+    padding-top: 22px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-bottom: 22px;
+}
+
+.video > iframe {
+
+    display: block;
+    width: 100%;
+    height: 480px;
+    margin: auto;
+
+    border-radius: 25px;
+
+    box-shadow: 7px 7px 24px 7px rgba(0, 0, 0, 0.596); */
+}
+
+
+/*PARTE FINAL*/
+
+
+.listas {
+    margin: center;
+    display: flex;
+    gap: 50px;
+}
+
+ul {
+    list-style-type: "✓ ";
+} 
+
+.corpo2 {
+    background-color: #C5EBD6;
+    margin-left: 22px;
+    margin-right: 22px;
+    margin-bottom: 22px;
+    
+    border-radius: 30px;
+
+    box-shadow: 7px 7px 24px 7px rgba(0, 0, 0, 0.596);    
+}
+ section.corpo2 > h3 {
+    padding-left: 22px;
+    background-color: #2FA866;
+    font-size: 40px;
+    display: block;
+
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+} 
+
+section.corpo2 > p {
+    font-family: sans-serif;
+    margin-left: 22px;
+    margin-right: 22px;
+    text-align: justify;
+    font-size: 22px;
+    color: black;
+    text-indent: 30px;
+}
+
+/*RODAPE*/
+
+footer {
+    background-color: black;
+    color: white;
+    font-size: 20px;   
+}
+
+footer > p {
+    text-align: center;
+    font-size: 20;
+
+    margin:  0px;
+
+    padding: 5px;
+}

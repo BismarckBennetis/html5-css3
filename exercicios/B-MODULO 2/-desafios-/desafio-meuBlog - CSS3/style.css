@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+    body {
+        background-color: black;
+    }
+    h1 {
+        background-color: rgb(39, 36, 36);
+        color: white;
+        text-align: center;
+        margin-top : 30px;
+    }
+    h2 {
+        color: white;
+        text-align: center;
+    }
+    p {
+        color: white;
+        text-align: center ;
+    }
+    img {
+        display: block;
+        margin: auto;
+    }
